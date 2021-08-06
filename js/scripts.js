@@ -13,9 +13,13 @@ $(document).ready(function() {
         let form = document.querySelector(".register-form");
 
         form.prepend(imageTag);
-
-        imageTag.addClassList("wsjsize");
     };
 
     showImage();
+
+    function addTriangle(){
+        document.querySelector(".register-form").classList.add("triangleBottomRight");
+    }
+
+    addTriangle();
 });

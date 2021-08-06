@@ -24,6 +24,10 @@ h1, h2{
 	letter-spacing: 2px;
 }
 
+h1{
+	padding-top:  150px;
+}
+
 h2{
 	margin-top:  40px;
 	margin-bottom:  0px;
@@ -34,6 +38,8 @@ h2{
 label, ::placeholder{
 	font-family:  'SharpSansMedium';
 	font-size:  12px;
+	display: inline-block;
+	width:  25%;
 }
 
 #signUp {
@@ -70,12 +76,15 @@ input[type="submit"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border:  none;
 }
 
 input[type="text"], input[type="email"], input[type="password"] {
 	text-transform: capitalize;
 	height:  30px;
-	margin-left:  20px;
+	/*margin-left:  20px;*/
+	flex-grow:  1;
+	width:  70%;
 }
 
 
@@ -105,6 +114,7 @@ div#app {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 .actions{
@@ -121,8 +131,10 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom:  150px;
 }
 
-
+.triangleBottomRight {
+}
 
 
