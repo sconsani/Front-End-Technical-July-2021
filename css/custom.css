@@ -30,7 +30,7 @@ label, ::placeholder{
 }
 
 #signUp {
-	background-color: yellow;
+	/*background-color: yellow;*/
 }
 
 form.register-form {
@@ -38,6 +38,15 @@ form.register-form {
 	border:  1px solid #5AC8E0;
     background-color: black;
     width: 600px;
+}
+
+img{
+	margin:  0px;
+	/*width:  75%;*/
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
 }
 
 input[type="submit"] {
@@ -55,8 +64,8 @@ button{
 	padding: 5px 10px;
 	letter-spacing: 1px;
     text-transform: uppercase;
-
 }
+
 
 /*layout*/
 
@@ -77,9 +86,6 @@ body{
     flex-direction: column;
 }
 
-journal-img{
-	height:  400px;
-	width:  auto;
-}
+
 
 

@@ -13,6 +13,8 @@ $(document).ready(function() {
         let form = document.querySelector(".register-form");
 
         form.prepend(imageTag);
+
+        imageTag.addClassList("wsjsize");
     };
 
     showImage();
