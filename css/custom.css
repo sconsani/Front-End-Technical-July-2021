@@ -21,12 +21,19 @@ h1, h2{
 	color:  white;
 	font-family:  'SharpSansBlack';
 	text-transform:  uppercase;
+	letter-spacing: 2px;
+}
+
+h2{
+	margin-top:  40px;
+	margin-bottom:  0px;
 }
 
 /*form*/
 
 label, ::placeholder{
 	font-family:  'SharpSansMedium';
+	font-size:  12px;
 }
 
 #signUp {
@@ -40,9 +47,12 @@ form.register-form {
     width: 600px;
 }
 
+.form-group {
+    padding-top: 20px;
+}
+
 img{
 	margin:  0px;
-	/*width:  75%;*/
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -57,13 +67,34 @@ input[type="submit"] {
     background-color: white;
     letter-spacing: 1px;
     text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+input[type="text"], input[type="email"], input[type="password"] {
+	text-transform: capitalize;
+	height:  30px;
+	margin-left:  20px;
+}
+
 
 button{
 	font-family: 'SharpSansBlack';
 	padding: 5px 10px;
 	letter-spacing: 1px;
     text-transform: uppercase;
+    border:  none;
+    border-top-left-radius:  5px;
+	border-top-right-radius:  5px;
+	background-color:  rgb(255,255,255, .5);
+	padding:  10px;
+
+}
+
+button.active {
+	background-color: #5AC8E0;
+	color:  white;
 }
 
 
@@ -74,6 +105,12 @@ div#app {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.actions{
+	display: flex;
+    align-self:  flex-start;
+    flex-direction: row;
 }
 
 body{
