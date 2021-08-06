@@ -3,23 +3,30 @@
 $(document).ready(function() {
     console.log('Document ready')
 
-    // let test = document.querySelectorAll(".register-form");
-    // console.log(test);
-
-    
+//this works:
     function showImage(){
         let imageTag = document.createElement('img');
         imageTag.src = "./assets_from_client/assets/WSJ_Horizontal.png"
-        let form = document.querySelector(".register-form");
+        let rform = document.querySelector(".register-form");
 
-        form.prepend(imageTag);
+        rform.prepend(imageTag); 
     };
 
     showImage();
 
-    function addTriangle(){
-        document.querySelector(".register-form").classList.add("triangleBottomRight");
-    }
+///// doesn't work yet - trying to get the image to show on the signin tab////////////
+function test(){
+    let registerform = document.querySelector("form");
+    let signinform = document.querySelector("form");
+    let h1tag = document.querySelector("h1");
 
-    addTriangle();
+    if (registerform.class == "register-form") {
+        return;
+    }else if (signinform.class == "signin-form") {
+        h1tag.innerText = "Signin"
+    }
+}
+test();
+
 });
+

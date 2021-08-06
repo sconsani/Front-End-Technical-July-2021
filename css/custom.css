@@ -1,5 +1,10 @@
 /* Write your CSS below */
 
+
+
+
+
+
 /*fonts*/
 
 @font-face {
@@ -15,7 +20,7 @@
 }
 
 
-/*headers*/
+/*header tags*/
 
 h1, h2{
 	color:  white;
@@ -46,7 +51,8 @@ label, ::placeholder{
 	/*background-color: yellow;*/
 }
 
-form.register-form {
+
+form.register-form, form.signin-form {
 	padding: 40px;
 	border:  1px solid #5AC8E0;
     background-color: black;
@@ -136,5 +142,40 @@ body{
 
 .triangleBottomRight {
 }
+
+
+/*media queries*/
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  /*and (-webkit-min-device-pixel-ratio: 2)*/
+  /*and (orientation: portrait) */
+  {
+  	form.register-form, form.signin-form {
+  		width:  275px;
+  		padding:  20px;
+  	}
+
+  	img{
+  		margin-top:  20px;
+  		width: 80%;
+  	}
+
+  	input[type="text"], input[type="email"], input[type="password"] {
+  		width:  100%;
+  	}
+
+  	label, ::placeholder{
+  		width:  100%;
+  	}
+
+
+
+
+};
+
+
 
 
