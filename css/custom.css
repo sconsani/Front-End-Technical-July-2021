@@ -1,0 +1,73 @@
+/* Write your CSS below */
+
+body{
+	background-image: url("../assets_from_client/assets/login-bg.jpg");
+	height:  600px;
+	color:  white;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@font-face {
+  font-family: 'SharpSansBlack';
+  src: url('../assets_from_client/fonts/SharpSans-No1-Black.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'SharpSansMedium';
+  src: url('../assets_from_client/fonts/SharpSans-No1-Medium.otf');
+  font-weight: normal;
+}
+
+h1, h2{
+	color:  white;
+	font-family:  'SharpSansBlack';
+	text-transform:  uppercase;
+
+}
+
+
+
+label, ::placeholder{
+	font-family:  'SharpSansMedium';
+}
+
+#signUp {
+	background-color: yellow;
+}
+
+form.register-form {
+	padding: 40px;
+	border:  1px solid #5AC8E0;
+    background-color: black;
+    width: 600px;
+}
+
+input[type="submit"] {
+	margin-top:  15px;
+    font-family: 'SharpSansBlack';
+    color: black;
+    padding: 10px 20px;
+    background-color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+div#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+	font-family: 'SharpSansBlack';
+	padding: 5px 10px;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+  
+}
+
