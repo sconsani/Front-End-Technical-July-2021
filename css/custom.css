@@ -1,14 +1,6 @@
 /* Write your CSS below */
 
-body{
-	background-image: url("../assets_from_client/assets/login-bg.jpg");
-	height:  600px;
-	color:  white;
-	display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+/*fonts*/
 
 @font-face {
   font-family: 'SharpSansBlack';
@@ -22,14 +14,16 @@ body{
   font-weight: normal;
 }
 
+
+/*headers*/
+
 h1, h2{
 	color:  white;
 	font-family:  'SharpSansBlack';
 	text-transform:  uppercase;
-
 }
 
-
+/*form*/
 
 label, ::placeholder{
 	font-family:  'SharpSansMedium';
@@ -56,6 +50,16 @@ input[type="submit"] {
     text-transform: uppercase;
 }
 
+button{
+	font-family: 'SharpSansBlack';
+	padding: 5px 10px;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+/*layout*/
+
 div#app {
     display: flex;
     align-items: center;
@@ -63,11 +67,19 @@ div#app {
     flex-direction: column;
 }
 
-button{
-	font-family: 'SharpSansBlack';
-	padding: 5px 10px;
-	letter-spacing: 1px;
-    text-transform: uppercase;
-  
+body{
+	background-image: url("../assets_from_client/assets/login-bg.jpg");
+	height:  600px;
+	color:  white;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+journal-img{
+	height:  400px;
+	width:  auto;
+}
+
 
