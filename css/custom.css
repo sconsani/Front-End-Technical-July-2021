@@ -40,11 +40,17 @@ h2{
 
 /*form*/
 
-label, ::placeholder{
+label{
 	font-family:  'SharpSansMedium';
 	font-size:  12px;
 	display: inline-block;
 	width:  25%;
+}
+
+::placeholder{
+	font-family:  'SharpSansMedium';
+	font-size:  12px;
+	width:  100%;
 }
 
 #signUp {
@@ -57,7 +63,46 @@ form.register-form, form.signin-form {
 	border:  1px solid #5AC8E0;
     background-color: black;
     width: 600px;
+    position:  relative;
+
+
 }
+
+#triangle {
+	width: 126;
+    height: 70px;
+    clip-path: polygon(00% 100%, 100% 0%, 100% 100%);
+    position: absolute;
+    background-color: #5AC8E0;
+    z-index: 1;
+    left: 473px;
+    top: 462px;
+}
+
+
+form.register-form::before, form.signin-form::after {
+    content: '';
+    position: relative;
+    top: 387px;
+    right: -510px;
+    border-color: transparent;
+    border-style: solid;
+}
+
+form.register-form::before, form.signin-form::before {
+    /*border-width: 1.5em;
+    border-right-color: #5AC8E0;
+    border-bottom-color: #5AC8E0;*/
+}
+
+form.register-form::after, form.signin-form::after{
+    /*border-radius: 0.4em;*/
+    /*border-width: 1.5em;*/
+    /*border-right-color: #5AC8E0;
+    border-bottom-color: #5AC8E0a;*/
+}
+
+
 
 .form-group {
     padding-top: 20px;
@@ -171,7 +216,16 @@ body{
   		width:  100%;
   	}
 
-
+	#triangle {
+		width: 126px;
+	    height: 70px;
+	    clip-path: polygon(00% 100%, 100% 0%, 100% 100%);
+	    position: absolute;
+	    background-color: #5AC8E0;
+	    z-index: 1;
+	    left: 148px;
+    	top: 488px;
+}
 
 
 };

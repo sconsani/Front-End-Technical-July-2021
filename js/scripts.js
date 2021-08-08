@@ -6,27 +6,32 @@ $(document).ready(function() {
 //this works:
     function showImage(){
         let imageTag = document.createElement('img');
-        imageTag.src = "./assets_from_client/assets/WSJ_Horizontal.png"
+        imageTag.src = "./assets_from_client/assets/WSJ_Horizontal.png";
         let rform = document.querySelector(".register-form");
 
-        rform.prepend(imageTag); 
+        rform.prepend(imageTag);
+
+        let triangle = document.createElement('div')
+        triangle.setAttribute('id', 'triangle');
+        rform.append(triangle);
+
+
     };
 
+// function showImageTwo(){
+//     let button = document.querySelector("button");
+//     let header = document.querySelector("h1");
+
+//     button.addEventListener("click", function (){
+//         if(button.innerText = "Sign In"){
+//             header.innerText = "Sign In";
+//         };
+//     });
+
+//     };
+
     showImage();
+    // showImageTwo();
 
-///// doesn't work yet - trying to get the image to show on the signin tab////////////
-function test(){
-    let registerform = document.querySelector("form");
-    let signinform = document.querySelector("form");
-    let h1tag = document.querySelector("h1");
-
-    if (registerform.class == "register-form") {
-        return;
-    }else if (signinform.class == "signin-form") {
-        h1tag.innerText = "Signin"
-    }
-}
-test();
 
 });
-
