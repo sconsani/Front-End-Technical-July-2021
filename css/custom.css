@@ -48,10 +48,6 @@ label{
 	width:  100%;
 }
 
-#signUp {
-	/*background-color: yellow;*/
-}
-
 form.register-form, form.signin-form {
 	padding: 40px;
 	border:  1px solid #5AC8E0;
@@ -70,6 +66,17 @@ form.register-form, form.signin-form {
     left: 473px;
     top: 438px;
 }
+
+#striangle{
+		width: 126px;
+	    height: 70px;
+	    clip-path: polygon(00% 100%, 100% 0%, 100% 100%);
+	    position: absolute;
+	    background-color: #5AC8E0;
+	    z-index: 1;
+	    left: 473px;
+    	top: 288px;
+    }
 
 .form-group {
     padding-top: 20px;
@@ -180,7 +187,18 @@ body{
   		width:  100%;
   	}
 
-	#triangle {
+	#triangle{
+		width: 126px;
+	    height: 70px;
+	    clip-path: polygon(00% 100%, 100% 0%, 100% 100%);
+	    position: absolute;
+	    background-color: #5AC8E0;
+	    z-index: 1;
+	    left: 148;
+    	top: 466px;
+    }
+
+	div#striangle{
 		width: 126px;
 	    height: 70px;
 	    clip-path: polygon(00% 100%, 100% 0%, 100% 100%);
@@ -188,7 +206,7 @@ body{
 	    background-color: #5AC8E0;
 	    z-index: 1;
 	    left: 148px;
-    	top: 466px;
+    	top: 270px;
 	}
 };
 

@@ -15,9 +15,9 @@ $(document).ready(function() {
                         imageTagTwo.src = "./assets_from_client/assets/WSJ_Horizontal.png";
                         sform.prepend(imageTagTwo);
 
-                        let triangle = document.createElement ('div');
-                        triangle.setAttribute('id', 'triangle');
-                        sform.append(triangle);
+                        let striangle = document.createElement ('div');
+                        striangle.setAttribute('id', 'striangle');
+                        sform.append(striangle);
                     }
                 }
             }
