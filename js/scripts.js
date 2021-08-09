@@ -31,19 +31,21 @@ addregId();
 
     function addId(){
         let button = document.querySelector("button");
+        let signInButton = document.querySelector("button");
+        console.log(signInButton);
+        signInButton.setAttribute('id', 'signin');
+
+
         button.addEventListener("click", function (event){
-            let signInButton = document.querySelector("button"); 
-                signInButton.setAttribute('id', 'signin');
-                console.log(signInButton);
-               
-            //adds in the second image- after multiple clicks- keeps adding    
-            if(signInButton.classList.contains("active")){
+                // console.log(signInButton.classList.value);
+                if(signInButton.classList.contains("active")){
                 let imageTagTwo = document.createElement('img');
                 imageTagTwo.src = "./assets_from_client/assets/WSJ_Horizontal.png";
                 let sform = document.querySelector(".signin-form");
+                console.log(sform);
                 sform.prepend(imageTagTwo); 
             };
-            event.stopPropagation();
+            // event.stopPropagation();
 
         });
     };

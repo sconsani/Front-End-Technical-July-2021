@@ -1,6 +1,5 @@
 /* Write your CSS below */
 
-
 /*fonts*/
 
 @font-face {
@@ -53,15 +52,12 @@ label{
 	/*background-color: yellow;*/
 }
 
-
 form.register-form, form.signin-form {
 	padding: 40px;
 	border:  1px solid #5AC8E0;
     background-color: black;
     width: 600px;
     position:  relative;
-
-
 }
 
 #triangle {
@@ -74,7 +70,6 @@ form.register-form, form.signin-form {
     left: 473px;
     top: 438px;
 }
-
 
 .form-group {
     padding-top: 20px;
@@ -156,8 +151,6 @@ body{
     flex-direction: column;
     margin-bottom:  150px;
 }
-
-
 
 
 /*media queries*/
