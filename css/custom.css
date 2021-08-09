@@ -72,32 +72,8 @@ form.register-form, form.signin-form {
     background-color: #5AC8E0;
     z-index: 1;
     left: 473px;
-    top: 462px;
+    top: 438px;
 }
-
-
-form.register-form::before, form.signin-form::after {
-    content: '';
-    position: relative;
-    top: 387px;
-    right: -510px;
-    border-color: transparent;
-    border-style: solid;
-}
-
-form.register-form::before, form.signin-form::before {
-    /*border-width: 1.5em;
-    border-right-color: #5AC8E0;
-    border-bottom-color: #5AC8E0;*/
-}
-
-form.register-form::after, form.signin-form::after{
-    /*border-radius: 0.4em;*/
-    /*border-width: 1.5em;*/
-    /*border-right-color: #5AC8E0;
-    border-bottom-color: #5AC8E0a;*/
-}
-
 
 
 .form-group {
@@ -181,8 +157,7 @@ body{
     margin-bottom:  150px;
 }
 
-.triangleBottomRight {
-}
+
 
 
 /*media queries*/
@@ -220,24 +195,11 @@ body{
 	    background-color: #5AC8E0;
 	    z-index: 1;
 	    left: 148px;
-    	top: 488px;
-}
-
-
-#wsjimage{
-	/*background-image: url("../assets_from_client/assets/WSJ_Horizontal.png");*/
-	height:  100px;
-	width:  100px;
-	margin:  0px;
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 70%;
-  	background-color:  yellow;
-}
-
-
+    	top: 466px;
+	}
 };
+
+
 
 
 
