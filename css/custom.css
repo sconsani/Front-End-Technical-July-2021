@@ -14,9 +14,7 @@
   font-weight: normal;
 }
 
-
 /*header tags*/
-
 h1, h2{
 	color:  white;
 	font-family:  'SharpSansBlack';
@@ -34,7 +32,6 @@ h2{
 }
 
 /*form*/
-
 label{
 	font-family:  'SharpSansMedium';
 	font-size:  12px;
@@ -76,7 +73,7 @@ form.register-form, form.signin-form {
 	    z-index: 1;
 	    left: 473px;
     	top: 288px;
-    }
+}
 
 .form-group {
     padding-top: 20px;
@@ -112,7 +109,6 @@ input[type="text"], input[type="email"], input[type="password"] {
 	width:  70%;
 }
 
-
 button{
 	font-family: 'SharpSansBlack';
 	padding: 5px 10px;
@@ -123,14 +119,12 @@ button{
 	border-top-right-radius:  5px;
 	background-color:  rgb(255,255,255, .5);
 	padding:  10px;
-
 }
 
 button.active {
 	background-color: #5AC8E0;
 	color:  white;
 }
-
 
 /*layout*/
 
@@ -139,7 +133,6 @@ div#app {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .actions{
@@ -158,7 +151,6 @@ body{
     flex-direction: column;
     margin-bottom:  150px;
 }
-
 
 /*media queries*/
 
